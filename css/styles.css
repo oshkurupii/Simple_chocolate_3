@@ -145,6 +145,10 @@ img {
 
 .hero-container {
   background-color: rgba(17, 17, 17, 0.6);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../img/chocolate-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 30px;
   padding: 380px 40px 40px 40px;
 }
@@ -225,40 +229,40 @@ img {
 .features-item-text {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29; /* 121.429% */
   letter-spacing: -0.02em;
 }
-/* ------------------------------ */
-
-/* ------------TASTE------------------ */
-
+  max-width: 484px;
+}
+.hero-buttons
+.hero-buttons {
+  display: flex;
+  align-
 .taste {
   padding-top: 120px;
 }
-
 .taste-title {
   max-width: 412px;
   margin: 0 auto 28px;
 }
-
 .taste-text {
   color: #111;
   text-align: center;
   font-size: 14px;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29; 
+}
+.her0-made-
   letter-spacing: -0.02em;
   margin: 0 auto 50px;
   max-width: 486px;
 }
-
 .taste-list {
   display: flex;
   flex-wrap: wrap;
-  /* column-gap: 32px;
-  row-gap: 24px; */
+  border: 1px solid #fff;
+  background: trans
   gap: 24px 32px;
 }
-
 .taste-item {
   border-radius: 15px;
   border: 1px solid #fd9222;
@@ -271,24 +275,26 @@ img {
   margin: 0 auto;
   margin-bottom: 36px;
 }
-
 .taste-subtitle {
   color: #111;
   font-size: 14px;
   font-weight: 600;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29; dding-left: 18
   letter-spacing: -0.02em;
   padding-left: 5px;
 }
+.features-item {
+  width: calc((100%
+}
+.features-subtitle {
+  color: #fff;
+}
 
-/* ------------------------------ */
-
-/* -------------MADE----------------- */
+/* -----------MADE----------- */
 
 .made {
   padding-top: 120px;
 }
-
 .made-title {
   margin-bottom: 50px;
 }
@@ -306,60 +312,74 @@ img {
   color: #111;
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33;
+   margin: 0 aut
   margin-bottom: 28px;
   max-width: 350px;
 }
-
 .made-list {
 }
-
 .made-item {
-  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.made-item::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #111;
+  border-radius: 50%;
+  border: 1px solid #ECEDED;
+  flex-shrink: 0;
+}
+.made-item + .made-item {
+  margin-top: 20px;
 }
 
 .made-item-text {
   color: #111;
   font-size: 14px;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29; ex-wrap: wrap;
   letter-spacing: -0.02em;
 }
+  gap: 24px 32px;
+}
 
-/* ------------------------------ */
+.taste-item {
 
-/* --------------PRODUCTS---------------- */
 
+.taste-item {
+  border-radius: 15px;
+  bord
 .products {
 }
-
 .products-title {
 }
-
 .products-list {
 }
-
 .products-item {
 }
 
 .products-img {
 }
-
 .products-subtitle {
   color: #111;
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33; --------------
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
 
 .products-item-text {
   color: rgba(17, 17, 17, 0.7);
+
   font-size: 12px;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17; rgin-bottom: 5
   letter-spacing: -0.02em;
 }
-
 .products-item-btn {
   color: #111;
   font-family: inherit;
@@ -368,22 +388,21 @@ img {
   line-height: normal;
   cursor: pointer;
 }
+  padding: 32px;
+}
+.made-subtitle {
 
-/* ------------------------------ */
-
-/* ------------SELLERS------------------ */
+.made-subtitle {
+  color: #111;
+  font-size
 .sellers {
 }
-
 .sellers-title {
 }
-
 .sellers-list {
 }
-
 .sellers-item {
 }
-
 .sellers-img {
 }
 
@@ -391,21 +410,28 @@ img {
   color: #111;
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33; 02em;
+}
+
+/* --
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+/* --------------PRODUCTS-----------
+.products {
+}
 
-/* ------------------------------ */
+.products-title {
+}
 
-/* -------------LOVED----------------- */
-
+.prod
 .loved {
 }
 .loved-title {
 }
 .loved-list {
 }
+
 .loved-item {
 }
 .loved-img {
@@ -415,13 +441,15 @@ img {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33;
+  font-weight: 6
 }
 .loved-item-text {
   color: rgba(17, 17, 17, 0.7);
   text-align: center;
   font-size: 14px;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29; {
+  color: rgb
   letter-spacing: -0.02em;
 }
 .loved-btn {
@@ -431,12 +459,14 @@ img {
   font-weight: 600;
   line-height: normal;
 }
-/* ------------------------------ */
-
-/* -------------FOOTER----------------- */
+  font-family: inherit;
+  font-size:
+  font-weight: 600;
+  line-height: normal;
 .footer {
   background: #1e1823;
 }
+
 .footer-heading {
   color: #fff;
   font-size: 28px;
@@ -444,7 +474,6 @@ img {
   line-height: calc(34 / 28);
   letter-spacing: -0.02em;
 }
-
 .footer-heading span {
   color: #fd9222;
 }
@@ -453,8 +482,9 @@ img {
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29; llers-subtitle
 }
+
 .footer-soc-list {
 }
 .footer-soc-item {
@@ -464,6 +494,7 @@ img {
 .footer-address {
   font-style: normal;
 }
+
 .footer-address-list {
 }
 .footer-address-item {
@@ -485,7 +516,8 @@ img {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
+  line-height: 1.14;
+    color: rgba(
   letter-spacing: -0.02em;
 }
 .footer-menu-link:hover,
@@ -493,4 +525,6 @@ img {
 .footer-menu-link:focus {
   color: #fd9222;
 }
-/* ------------------------------ */
+.loved-btn {
+  color: #111;
+  font-f
